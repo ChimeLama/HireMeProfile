@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  cursor: url(https://cur.cursors-4u.net/anime/ani-6/ani546.cur), auto !important;
+}
+body {
+    background: #fff;
+    font-family: 'Pixelify Sans', cursive;
+    padding-top: 25px;
+    font-size: 20px;
+    background-color:#b0bca9;
+}
+/* All pic class */
+.pic {
+    width: 200px;
+    margin-right: 20px;
+    image-orientation: from-image;
+    border-radius: 10px;
+    border: solid 2px #2d2121;
+}
+/* Contact box start */
+.boxInfo {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.contactBox{
+    background: #1c3d05;
+    color: #fff;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+/* End */
+
+.longBox {
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+/* ABout chime box*/
+.rightHead {
+    background: #1c3d05;
+    color: #fff;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 5px;
+}
+/* Left box position */
+.topLeft {
+    top: 0;
+    float: left;
+    width: calc( 40% - 10px );
+    padding: 10px;
+    background-color: #5a775f;
+    border-radius: 10px;
+}
+/* Right box position */
+.topRight {
+    float: right;
+    width: calc( 60% - 60px );
+    padding: 10px;
+    background-color: #5a775f;
+    border-radius: 10px;
+}
+
+/*The extra box for song*/
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #1c3d05;
+    color: #fff;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+a:-webkit-any-link {
+    color: #162c07;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
